@@ -1,0 +1,19 @@
+.container {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+
+// Tablet 
+@media screen and (min-width: 48em) {
+  .container {
+    width: 80%;
+  }
+}
+
+// Laptop {
+@media screen and (min-width: 60em) {
+  .container {
+    width: 75%;
+  }
+}
