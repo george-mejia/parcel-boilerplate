@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-dir prod>"
+    "build": "parcel build src/index.html --out-dir prod>",
+    "preinstall": "npx npm-force-resolutions"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,11 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.5"
+  },
+  "dependencies": {
+    "node-forge": "^0.10.0"
+  },
+  "resolutions": {
+    "node-forge": "^0.10.0"
   }
 }
